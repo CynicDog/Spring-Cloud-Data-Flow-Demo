@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Cloud-Data-Flow-Demo.iml" filepath="$PROJECT_DIR$/.idea/Spring-Cloud-Data-Flow-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-app/Spring-Cloud-Demo.iml" filepath="$PROJECT_DIR$/movie-app/Spring-Cloud-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-app-web/Spring-Cloud-Demo-CH3-web.iml" filepath="$PROJECT_DIR$/movie-app-web/Spring-Cloud-Demo-CH3-web.iml" />
+    </modules>
+  </component>
+</project>

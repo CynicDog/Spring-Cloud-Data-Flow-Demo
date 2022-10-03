@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/main/java/com/example/springclouddemo/TwitterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/main/java/com/example/springclouddemo/TwitterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/main/java/com/example/springclouddemo/TwitterStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch2/src/test/java/com/example/springclouddemo/SpringCloudDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/src/main/java/com/example/springclouddemoch3web/SpringCloudDemoCh3WebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app-web/src/test/java/com/example/springclouddemoch3web/SpringCloudDemoCh3WebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/Spring-Cloud-Demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/java/com/example/springclouddemo/movie/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/java/com/example/springclouddemo/movie/MovieConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/java/com/example/springclouddemo/movie/MovieEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/java/com/example/springclouddemo/movie/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/resources/META-INF/spring/movie-app-integration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/src/test/java/com/example/springclouddemo/SpringCloudDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/META-INF/spring/movie-app-integration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/com/example/springclouddemo/SpringCloudDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/com/example/springclouddemo/movie/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/com/example/springclouddemo/movie/MovieConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/com/example/springclouddemo/movie/MovieEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/classes/com/example/springclouddemo/movie/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/input/movie-batch1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/output/movie-batch1.txt.processed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-app/target/test-classes/com/example/springclouddemo/SpringCloudDemoApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2FcxKm3UaJVAUUlbDuG8aFntvXY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="SpringCloudDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Cloud-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springclouddemo.SpringCloudDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="" />
+      <created>1664805111943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664805111943</updated>
+      <workItem from="1664805113016" duration="6000" />
+      <workItem from="1664805237932" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
