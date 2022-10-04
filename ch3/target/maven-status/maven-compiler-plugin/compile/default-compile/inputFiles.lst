@@ -1,5 +1,7 @@
-/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/movie-app/src/main/java/com/example/springclouddemo/movie/Movie.java
-/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/movie-app/src/main/java/com/example/springclouddemo/movie/MovieConfiguration.java
-/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/movie-app/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java
-/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/movie-app/src/main/java/com/example/springclouddemo/movie/MovieService.java
-/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/movie-app/src/main/java/com/example/springclouddemo/movie/MovieEndpoint.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/MovieService.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/MovieConfiguration.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/Movie.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/MovieController.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/MovieEndpoint.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java
+/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3/src/main/java/com/example/springclouddemo/movie/MovieMailEndpoint.java
