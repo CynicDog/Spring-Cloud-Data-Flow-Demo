@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Cloud-Demo-CH3-web" />
         <module name="Spring-Cloud-Demo" />
+        <module name="ch3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ch3" target="17" />
       <module name="Spring-Cloud-Demo" target="17" />
       <module name="Spring-Cloud-Demo-CH3-web" target="17" />
     </bytecodeTargetLevel>
@@ -18,6 +20,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-Cloud-Demo" options="-parameters" />
+      <module name="Spring-Cloud-Demo-CH3-web" options="-parameters" />
+      <module name="ch3" options="-parameters" />
     </option>
   </component>
 </project>

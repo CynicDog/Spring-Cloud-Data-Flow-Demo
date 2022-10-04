@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/movie-app/pom.xml" />
         <option value="$PROJECT_DIR$/movie-app-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
