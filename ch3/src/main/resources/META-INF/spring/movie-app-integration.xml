@@ -37,6 +37,7 @@
                                        data-source="testdb" channel="publisher" order="1" />
 
     <int-mail:outbound-channel-adapter channel="mail" mail-sender="mailSender" />
+
     <int:service-activator input-channel="publisher" output-channel="mail" ref="movieMailEndPoint" order="2" />
 
     <int:channel id="mail">
