@@ -1,4 +1,4 @@
-package com.example.springclouddemo.movie;
+package com.example.ch3.movie;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

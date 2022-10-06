@@ -12,20 +12,20 @@
         http://www.springframework.org/schema/integration/mail http://www.springframework.org/schema/integration/mail/spring-integration-mail.xsd
         http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd">
 
-    <bean id="movieMailEndPoint" class="com.example.springclouddemo.movie.MovieMailEndpoint" />
+    <bean id="movieMailEndPoint" class="com.example.ch3.movie.MovieMailEndpoint" />
 
     <jdbc:embedded-database id="testdb" type="H2"/>
 
     <!-- Spring Integration: Http-->
     <int-http:inbound-channel-adapter id="movie"
                                       supported-methods="POST" channel="publisher" path="/v2/movie"
-                                      request-payload-type="com.example.springclouddemo.movie.Movie"
+                                      request-payload-type="com.example.ch3.movie.Movie"
                                       status-code-expression="T(org.springframework.http.HttpStatus).ACCEPTED"
     />
 
     <int-http:inbound-channel-adapter id="movies"
                                       supported-methods="POST" channel="publisher" path="/v2/movies"
-                                      request-payload-type="com.example.springclouddemo.movie.Movie[]"
+                                      request-payload-type="com.example.ch3.movie.Movie[]"
                                       status-code-expression="T(org.springframework.http.HttpStatus).ACCEPTED"
     />
 

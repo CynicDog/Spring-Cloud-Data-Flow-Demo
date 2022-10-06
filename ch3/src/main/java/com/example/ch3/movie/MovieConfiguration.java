@@ -1,4 +1,4 @@
-package com.example.springclouddemo.movie;
+package com.example.ch3.movie;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

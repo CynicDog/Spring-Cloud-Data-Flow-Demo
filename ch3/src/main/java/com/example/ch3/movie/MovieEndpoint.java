@@ -1,17 +1,11 @@
-package com.example.springclouddemo.movie;
+package com.example.ch3.movie;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.ServiceActivator;
-import org.springframework.messaging.Message;
 import org.springframework.messaging.handler.annotation.Headers;
-import org.springframework.messaging.support.MessageBuilder;
-import org.springframework.util.StreamUtils;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.Map;
 
 @MessageEndpoint

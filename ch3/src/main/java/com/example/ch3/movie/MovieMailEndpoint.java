@@ -1,4 +1,4 @@
-package com.example.springclouddemo.movie;
+package com.example.ch3.movie;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,6 @@ import org.springframework.mail.MailMessage;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.messaging.handler.annotation.Headers;
 
-import java.util.Date;
 import java.util.Map;
 
 @MessageEndpoint

@@ -1,4 +1,4 @@
-package com.example.springclouddemo.movie;
+package com.example.ch3.movie;
 
 public class Movie {
 

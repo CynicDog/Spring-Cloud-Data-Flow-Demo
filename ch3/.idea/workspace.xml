@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieFieldSetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieQueryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/META-INF/spring/movie-batch-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/movies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/SpringCloudDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieMailEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieMailEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/movie-app-integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/movie-app-integration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springclouddemo/SpringCloudDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ch3/SpringCloudDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/ch4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/ch4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +69,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "b9869bec82b6ab24d914fdba43450a1e"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ginsenglee/Documents/GitHub/Spring-Cloud-Data-Flow-Demo/ch3&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b9869bec82b6ab24d914fdba43450a1e&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;h2&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "b1277816-5837-4277-94ea-4055383fef60"
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;b1277816-5837-4277-94ea-4055383fef60&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.SpringCloudDemoApplication (1)">
     <configuration name="schema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/movie-app/src/main/resources/schema.sql" />
@@ -87,7 +103,7 @@
     </configuration>
     <configuration name="SpringCloudDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ch3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springclouddemo.SpringCloudDemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch3.Ch3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +142,8 @@
       <workItem from="1664857554340" duration="81000" />
       <workItem from="1664857785255" duration="158000" />
       <workItem from="1664857964194" duration="435000" />
+      <workItem from="1665014016995" duration="11000" />
+      <workItem from="1665014555683" duration="1585000" />
     </task>
     <servers />
   </component>
