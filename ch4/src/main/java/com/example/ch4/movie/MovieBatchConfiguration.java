@@ -53,7 +53,9 @@ public class MovieBatchConfiguration {
         JdbcBatchItemWriter<Movie> itemWriter = new JdbcBatchItemWriter<>();
 
         itemWriter.setDataSource(dataSource);
-        itemWriter.setSql("insert into `movies` (`title`, `actor`, `year`) values (:title, :actor, :year)");
+        itemWriter.setSql("" +
+                "insert into `movies` (`title`, `actor`, `year`) " +
+                "values (:title, :actor, :year)");
         itemWriter.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>());
         itemWriter.afterPropertiesSet();
 
