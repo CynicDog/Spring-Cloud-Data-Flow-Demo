@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieFieldSetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieQueryInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/META-INF/spring/movie-batch-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/movies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieBatchConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/SpringCloudDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/SpringCloudDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieMailEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieMailEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springclouddemo/movie/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/movie/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/movie-app-integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/movie-app-integration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springclouddemo/SpringCloudDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ch3/SpringCloudDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch4/ch4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/ch4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" afterDir="false" />
@@ -143,7 +128,8 @@
       <workItem from="1664857785255" duration="158000" />
       <workItem from="1664857964194" duration="435000" />
       <workItem from="1665014016995" duration="11000" />
-      <workItem from="1665014555683" duration="1585000" />
+      <workItem from="1665014555683" duration="2380000" />
+      <workItem from="1665020069598" duration="9000" />
     </task>
     <servers />
   </component>
