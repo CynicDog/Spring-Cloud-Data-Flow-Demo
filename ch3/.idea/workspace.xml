@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch4/src/main/java/com/example/ch4/movie/MovieBatchConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/ch4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/ch4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/src/main/resources/movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/src/main/resources/movies.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +126,7 @@
       <workItem from="1665014016995" duration="11000" />
       <workItem from="1665014555683" duration="2380000" />
       <workItem from="1665020069598" duration="9000" />
+      <workItem from="1665222585169" duration="1234000" />
     </task>
     <servers />
   </component>
