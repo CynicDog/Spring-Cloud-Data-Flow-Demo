@@ -40,7 +40,9 @@ public class MovieIntegrationConfiguration {
 
                 .transform(Transformers.converter(this.movieConverter))
                 .transform(Transformers.toJson())
+
                 .handle(Http.outboundChannelAdapter(URI.create(this.movieProperties.getRemoteService())).httpMethod(HttpMethod.POST))
+
                 .get();
     }
 }

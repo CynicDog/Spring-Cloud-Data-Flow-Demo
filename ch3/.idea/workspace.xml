@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eeaf92b-b3a4-4cb4-871f-3fd7b45e6b42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/java/com/example/movie/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/java/com/example/movie/MovieConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/java/com/example/movie/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/java/com/example/movie/MovieMailEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/resources/META-INF/spring/movie-app-integration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch5/movie/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch5/config_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5/config_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +127,7 @@
       <workItem from="1665020069598" duration="9000" />
       <workItem from="1665222585169" duration="1234000" />
       <workItem from="1665226969373" duration="1409000" />
+      <workItem from="1665237093692" duration="48000" />
     </task>
     <servers />
   </component>
