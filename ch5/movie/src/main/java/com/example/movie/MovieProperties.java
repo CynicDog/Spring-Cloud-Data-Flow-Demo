@@ -12,5 +12,5 @@ public class MovieProperties {
     private Boolean preventDuplicates;
     private Long fixedDelay;
 
-    private String remoteService = "http://localhost:8181/v1/movies";
+    private String remoteService = "http://localhost:8181/v1/movie";
 }

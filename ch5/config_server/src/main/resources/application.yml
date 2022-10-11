@@ -8,5 +8,5 @@ spring:
         git:
           uri: https://github.com/CynicDog/Spring-Cloud-Data-Flow-Demo-Config
           username: eunsang_lee
-          password: # your git personal access token
+          password: ###
           default-label: main
