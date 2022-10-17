@@ -1,21 +1,23 @@
 package com.example.movie;
 
+import com.netflix.appinfo.InstanceInfo;
+import com.netflix.discovery.EurekaClient;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.integration.dsl.IntegrationFlow;
 import org.springframework.integration.dsl.IntegrationFlows;
 import org.springframework.integration.dsl.Pollers;
 import org.springframework.integration.dsl.Transformers;
 import org.springframework.integration.file.dsl.Files;
 import org.springframework.integration.file.splitter.FileSplitter;
-import org.springframework.integration.http.dsl.Http;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
-import java.net.URI;
 
+// TODO: Implementation of Circuit Breaker
 @Configuration
 @AllArgsConstructor
 @EnableConfigurationProperties(MovieProperties.class)
@@ -39,10 +41,15 @@ public class MovieIntegrationConfiguration {
                 .filter(p -> !(p instanceof FileSplitter.FileMarker))
 
                 .transform(Transformers.converter(this.movieConverter))
-                .transform(Transformers.toJson())
-
-                .handle(Http.outboundChannelAdapter(URI.create(this.movieProperties.getRemoteService())).httpMethod(HttpMethod.POST))
+                .handle("movieHandler", "process")
 
                 .get();
     }
+
+    @LoadBalanced @Bean
+    public RestTemplate restTemplate(){ return new RestTemplate(); }
+    @Bean
+    public MovieHandler movieHandler(){ return new MovieHandler(restTemplate()); }
 }
+
+
